@@ -38,12 +38,7 @@ function Pages() {
     return (
         <Routes>
             <Route path="/profile" element={<Profile />} />
-            <Route path="/profileWithMsal" element={<ProfileWithMsal />} />
-            <Route path="/profileRawContext" element={<ProfileRawContext />} />
-            <Route
-                path="/profileUseMsalAuthenticationHook"
-                element={<ProfileUseMsalAuthenticationHook />}
-            />
+          
             <Route path="/logout" element={<Logout />} />
             <Route path="/" element={<Home />} />
         </Routes>
